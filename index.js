@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-var FastText = require('FastText');
+var FastText = require('node-fasttext');
 const cors = require('cors');
 
 let config = { 
